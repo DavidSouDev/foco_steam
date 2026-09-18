@@ -20,19 +20,19 @@ const RELATOS = [
 
 export default function Testimonials() {
   return (
-    <section id="depoimentos" className="bg-white py-20">
+    <section id="depoimentos" className="bg-gradient-to-b from-violet-950 to-black py-20">
       <div className="mx-auto max-w-5xl px-6">
-        <h2 className="text-center text-3xl font-semibold text-violet-700 sm:text-4xl">
+        <h2 className="text-center text-3xl font-semibold text-violet-300 sm:text-4xl">
           Veja quem está assistindo e aprovou o nosso sinal
         </h2>
 
         <div className="mt-12 grid gap-8 sm:grid-cols-3">
           {RELATOS.map((relato) => (
             <div key={relato.src} className="flex flex-col">
-              <p className="mb-3 text-center text-lg font-semibold text-violet-700">
+              <p className="mb-3 text-center text-lg font-semibold text-violet-300">
                 {relato.name}
               </p>
-              <div className="overflow-hidden rounded-2xl shadow-lg ring-1 ring-slate-200">
+              <div className="overflow-hidden rounded-2xl shadow-lg ring-1 ring-white/10">
                 <div className="relative aspect-[738/971] w-full">
                   <Image
                     src={relato.src}

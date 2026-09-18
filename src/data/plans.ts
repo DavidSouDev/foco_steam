@@ -1,45 +1,67 @@
 export type Plan = {
   days: number;
-  months: string;
-  label: string;
+  name: string;
+  pricePerMonth: string;
+  originalPrice: string;
+  totalPrice: string;
+  savingsNote?: string;
+  featured?: boolean;
+  features: string[];
   href: string;
-  image: string;
+  cta: string;
 };
 
 export const plans: Plan[] = [
   {
     days: 30,
-    months: "1 MÊS",
-    label: "Assinatura mensal",
+    name: "1 mês",
+    pricePerMonth: "R$ 29,90/mês",
+    originalPrice: "R$ 49,90",
+    totalPrice: "R$ 29,90",
+    features: [
+      "Canais abertos e fechados",
+      "+6.000 séries e filmes",
+      "1 dispositivo incluso",
+      "Qualidade SD/HD/FHD/4K",
+      "Envio imediato do acesso",
+    ],
     href: "#contato",
-    image: "/img/planos/1-mes.jpg",
+    cta: "Começar agora",
   },
   {
-    days: 60,
-    months: "2 MESES",
-    label: "Assinatura bimestral",
+    days: 120,
+    name: "4 meses",
+    pricePerMonth: "R$ 22,48/mês",
+    originalPrice: "R$ 119,90",
+    totalPrice: "R$ 89,90",
+    savingsNote: "Economize com o plano quadrimestral",
+    featured: true,
+    features: [
+      "Canais abertos e fechados",
+      "+6.000 séries e filmes",
+      "2 dispositivos inclusos",
+      "Qualidade SD/HD/FHD/4K",
+      "Envio imediato do acesso",
+    ],
     href: "#contato",
-    image: "/img/planos/2-mes.jpg",
-  },
-  {
-    days: 90,
-    months: "3 MESES",
-    label: "Assinatura trimestral",
-    href: "#contato",
-    image: "/img/planos/3-mes.jpg",
-  },
-  {
-    days: 180,
-    months: "6 MESES",
-    label: "Assinatura semestral",
-    href: "#contato",
-    image: "/img/planos/6-mes.jpg",
+    cta: "Assinar",
   },
   {
     days: 365,
-    months: "1 ANO",
-    label: "Assinatura anual",
+    name: "1 ano",
+    pricePerMonth: "R$ 16,66/mês",
+    originalPrice: "R$ 239,90",
+    totalPrice: "R$ 199,90",
+    savingsNote: "Maior economia do ano",
+    features: [
+      "Canais abertos e fechados",
+      "+6.000 séries e filmes",
+      "2 dispositivos inclusos",
+      "Qualidade SD/HD/FHD/4K",
+      "Suporte especializado prioritário",
+      "Envio imediato do acesso",
+    ],
     href: "#contato",
-    image: "/img/planos/1-ano.jpg",
+    cta: "Assinar",
   },
 ];

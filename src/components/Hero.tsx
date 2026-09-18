@@ -11,8 +11,8 @@ export default function Hero() {
         sizes="100vw"
         className="object-cover"
       />
-      <div className="absolute inset-0 bg-gradient-to-b from-violet-950/85 via-slate-950/60 to-slate-950/90" />
-      <div className="absolute inset-0 bg-[radial-gradient(circle_at_50%_20%,rgba(249,115,22,0.25),transparent_60%)]" />
+      <div className="absolute inset-0 bg-gradient-to-b from-black/90 via-black/60 to-violet-950" />
+      <div className="absolute inset-0 bg-[radial-gradient(circle_at_50%_20%,rgba(249,115,22,0.2),transparent_60%)]" />
       <div className="relative z-10 mx-auto max-w-3xl px-6 text-center">
         <h1 className="text-4xl font-bold text-white sm:text-6xl">Foco Steam IPTV</h1>
         <p className="mt-6 text-base font-medium text-violet-100 sm:text-lg">

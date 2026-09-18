@@ -6,10 +6,10 @@ const FEATURES = [
 
 export default function About() {
   return (
-    <section id="sobre" className="bg-slate-100 py-20">
+    <section id="sobre" className="bg-gradient-to-b from-violet-950 to-black py-20">
       <div className="mx-auto max-w-3xl px-6 text-center">
-        <h2 className="text-3xl font-semibold text-violet-700 sm:text-4xl">Sobre IPTV</h2>
-        <div className="mt-8 flex flex-col gap-4 text-base text-slate-700 sm:text-lg">
+        <h2 className="text-3xl font-semibold text-violet-300 sm:text-4xl">Sobre IPTV</h2>
+        <div className="mt-8 flex flex-col gap-4 text-base text-slate-300 sm:text-lg">
           {FEATURES.map((feature) => (
             <p key={feature}>{feature}</p>
           ))}

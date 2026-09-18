@@ -9,7 +9,7 @@ const NAV_LINKS = [
 
 export default function Header() {
   return (
-    <header className="fixed inset-x-0 top-0 z-50 bg-violet-950/80 backdrop-blur">
+    <header className="fixed inset-x-0 top-0 z-50 border-b border-white/5 bg-violet-950/70 backdrop-blur">
       <div className="mx-auto flex max-w-6xl items-center justify-between px-6 py-3">
         <Link href="#" aria-label="Foco Steam IPTV" className="flex items-center gap-2">
           <span className="relative block h-9 w-9 shrink-0 overflow-hidden rounded-lg sm:h-10 sm:w-10">
