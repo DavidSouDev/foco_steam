@@ -33,6 +33,7 @@ export const metadata: Metadata = {
     "Foco Steam",
   ],
   alternates: { canonical: "/" },
+  verification: { google: "R6U2I2JuzeyHqaQq3noFCsholn_i7Nwp6sis9QK47zo" },
   openGraph: {
     type: "website",
     locale: "pt_BR",
