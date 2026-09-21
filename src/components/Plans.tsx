@@ -66,6 +66,8 @@ export default function Plans() {
 
               <a
                 href={plan.href}
+                target="_blank"
+                rel="noopener noreferrer"
                 className="mt-6 rounded-lg bg-orange-500 py-3 text-center text-sm font-semibold text-white transition hover:bg-orange-400"
               >
                 {plan.cta}
