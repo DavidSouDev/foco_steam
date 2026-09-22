@@ -43,7 +43,7 @@ export const plans: Plan[] = [
       "Qualidade SD/HD/FHD/4K",
       "Envio imediato do acesso",
     ],
-    href: "https://pay.kiwify.com.br/9dP6dSf",
+    href: "https://pay.kiwify.com.br/OGZJyNZ",
     cta: "Assinar",
   },
   {
@@ -61,7 +61,7 @@ export const plans: Plan[] = [
       "Suporte especializado prioritário",
       "Envio imediato do acesso",
     ],
-    href: "https://pay.kiwify.com.br/OGZJyNZ",
+    href: "https://pay.kiwify.com.br/9dP6dSf",
     cta: "Assinar",
   },
 ];
