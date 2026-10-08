@@ -25,7 +25,7 @@ export const plans: Plan[] = [
       "Qualidade SD/HD/FHD/4K",
       "Envio imediato do acesso",
     ],
-    href: "https://pay.kiwify.com.br/zthU0rC",
+    href: "https://pay.cakto.com.br/ez76ifm_1184318",
     cta: "Começar agora",
   },
   {
